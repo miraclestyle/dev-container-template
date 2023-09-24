@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  dev:
+    image: #docker image (e.g., node:latest)
+    stdin_open: true
+    tty: true
+    container_name: dev
+    volumes:
+      - type: bind
+        source: ../
+        target: /home/dev
