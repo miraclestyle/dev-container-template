@@ -18,5 +18,5 @@ services:
       - devnet
 
 networks:
-  minimall:
+  devnet:
     name: devnet
